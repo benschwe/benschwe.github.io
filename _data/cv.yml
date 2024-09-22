@@ -2,55 +2,62 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Ben Schweitzer
     - name: Languages
-      value: English, German
+      value: English
+    - name: Location
+      value: Seattle, WA
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M. Eng - Energy Systems
+      company: University of Michigan, Ann Arbor
+      year: 2010
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Focus on electrochemical energy storage and conversion
+        - Thesis - "Variations in specific heat capacity of Li-ion cells as a function of state-of-charge"
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: B.S. Mechanical Engineering
+      institution: University of Michigan, Ann Arbor
+      year: 2008
+      # description:
+      #   - Description 1.
+      #   - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Principal Engineer
+      institution: Amazon.com - Last Mile Global Fleet and Products
+      year: 2022 - Now
       description:
-        - Description 1.
+        - Currently leading systems engineering for the electrification of our global last
+          mile delivery fleet. This includes the architecture of charging systems and electric vehicles.
         - Description 2.
         - title: Description 3.
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+    - title: Sr. Systems Engineer, EV Battery Systems
+      institution: Amazon.com - Last Mile Global Fleet and Products
+      year: 2020 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Led the development of battery system requirements for the Rivian EDV, Amazon's first custom designed electric
+          delivery vehicle for last mile delivery. 
+        - Developed requirements for a next generation battery system in the EDV, and successfully introduced it into our
+          fleet in 2023. Achieved an XX% reduction in battery system cost while meeting energy requirements.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Manager, Battery Systems Engineering
+      institution: Amazon.com - Prime Air
+      year: 2018 - 2020
+      description: 
+       - Hired and managed a hardware and software team of 7 responsible for the aircraft battery system, as well as the 
+         off-board charging system. 
+       - The team was...
 
     - title: Professor of Theoretical Physics
       institution: Karl-Ferdinand University, Prague, Czechoslovakia
@@ -61,12 +68,12 @@
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table

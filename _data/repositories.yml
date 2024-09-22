@@ -2,5 +2,6 @@ github_users:
   - benschwe
 
 github_repos:
+  - benschwe/gadget
   - benschwe/sandpiles
   - benschwe/Dualfoil_Python
