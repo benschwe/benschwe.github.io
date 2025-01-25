@@ -24,5 +24,4 @@ I'm Ben, and I work as a Principal Engineer at Amazon.
 
 My background is in mechanical engineering and electrochemical energy storage systems, with a focus on lithium-ion chemistry. I've worked on projects across vehicular, aerial, and stationary domains, operating across both hardware and software systems. I enjoy applying computational and systems engineering techniques to help customers design the right product given real world ambiguity and constraints.
 
-Outside of work, I enjoy building and working on a wide variety of mechanical, electrical, and software systems. 
-You can find some examples in the [projects](/projects/) section.
+Outside of work, I enjoy building and working on a wide variety of mechanical, electrical, and software systems. You can find some examples in the [projects](/projects/) section.

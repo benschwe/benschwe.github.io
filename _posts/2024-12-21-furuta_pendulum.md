@@ -19,6 +19,7 @@ Pictures of the finished product:
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/furuta_pendulum/pendulum_finished_2.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-</div>
+</div>  
 
-More details on the build(s) can be found over on the projects page.
+
+More details on the build(s) can be found over on the [projects]({% link _projects/furuta_pendulum.md %})
