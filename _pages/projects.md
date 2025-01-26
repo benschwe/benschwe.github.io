@@ -5,7 +5,7 @@ permalink: /projects/
 description: Things I've built, modified, or otherwise hacked just because
 nav: true
 nav_order: 3
-display_categories: [SimpleFOC, Nitrogen Lasers]
+display_categories: [furuta_pendulum, Nitrogen Lasers]
 horizontal: false
 ---
 
