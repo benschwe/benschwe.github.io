@@ -4,7 +4,7 @@ title: SimpleFOC Based Furuta Pendulum
 description: Using SimpleFOC to control a Furuta Pendulum
 img: assets/img/furuta_pendulum/pendulum_finished.jpg
 importance: 1
-category: furuta_pendulum
+category: Furuta Pendulum
 related_publications: false
 #permalink: projects/furuta_pendulum.md
 ---

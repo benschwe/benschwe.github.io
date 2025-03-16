@@ -22,4 +22,4 @@ Pictures of the finished product:
 </div>  
 
 
-More details on the build(s) can be found over on the [projects]({% link _projects/furuta_pendulum.md %})
+More details on the build(s) can be found over on the [projects](/projects/Furuta Pendulum.md)
