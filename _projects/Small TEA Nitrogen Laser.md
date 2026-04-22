@@ -13,10 +13,10 @@ Built in 2022, this laser has an electrode length of 8.8 cm, and uses the power 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/nitrogen_laser/small_laser_1.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/nitrogen_laser/small_laser_1.jpg" title="overview 1" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/nitrogen_laser/small_laser_2.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid path="assets/img/nitrogen_laser/small_laser_2.jpg" title="overview 2" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
 </div>
 <div class="caption">
