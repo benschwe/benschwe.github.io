@@ -4,9 +4,7 @@
     - name: Full Name
       value: Ben Schweitzer
     - name: Location
-      value: Seattle, WA
-    - name: Email
-      value: benschwe@gmail.com
+      value: Bay Area, CA
 
 - title: Education
   type: time_table
