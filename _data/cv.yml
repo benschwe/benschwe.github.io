@@ -3,102 +3,115 @@
   contents:
     - name: Full Name
       value: Ben Schweitzer
-    - name: Languages
-      value: English
     - name: Location
       value: Seattle, WA
+    - name: Email
+      value: benschwe@gmail.com
 
 - title: Education
   type: time_table
   contents:
-    - title: M. Eng - Energy Systems
-      company: University of Michigan, Ann Arbor
-      year: 2010
-      description:
-        - Focus on electrochemical energy storage and conversion
-        - Thesis - "Variations in specific heat capacity of Li-ion cells as a function of state-of-charge"
-        # - title: Description 3.
-        #   contents:
-        #     - Sub-description 1.
-        #     - Sub-description 2.
+    - title: M. Eng. - Energy Systems
+      institution: University of Michigan, Ann Arbor
+      year: 2011
     - title: B.S. Mechanical Engineering
       institution: University of Michigan, Ann Arbor
-      year: 2008
-      # description:
-      #   - Description 1.
-      #   - Description 2.
+      year: 2004
 
 - title: Experience
   type: time_table
   contents:
-    - title: Principal Engineer
-      institution: Amazon.com - Last Mile Global Fleet and Products
-      year: 2022 - Now
+    - title: Principal Engineer, Electrification
+      institution: Amazon – Last Mile Global Fleet and Products
+      year: 2022 - Present
+      location: Seattle, WA
       description:
-        - Currently leading systems engineering for the electrification of our global last
-          mile delivery fleet. This includes the architecture of charging systems and electric vehicles.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Sr. Systems Engineer, EV Battery Systems
-      institution: Amazon.com - Last Mile Global Fleet and Products
-      year: 2020 - 2022
-      description:
-        - Led the development of battery system requirements for the Rivian EDV, Amazon's first custom designed electric
-          delivery vehicle for last mile delivery. 
-        - Developed requirements for a next generation battery system in the EDV, and successfully introduced it into our
-          fleet in 2023. Achieved an XX% reduction in battery system cost while meeting energy requirements.
+        - Principal Systems Engineer leading a research science group responsible for architectural decisions in the electrification of Amazon's Last Mile delivery network.
+        - Developed mathematical models to simulate fleet charging operations and optimize charging hardware and control strategies to minimize CapEx and charging electricity costs.
+        - Led the introduction of battery life modeling into EV deployment simulation infrastructure, enabling trade studies between charge rates and battery size with respect to fleet lifetime and expected CapEx.
 
     - title: Manager, Battery Systems Engineering
-      institution: Amazon.com - Prime Air
-      year: 2018 - 2020
-      description: 
-       - Hired and managed a hardware and software team of 7 responsible for the aircraft battery system, as well as the 
-         off-board charging system. 
-       - The team was...
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+      institution: Amazon – Last Mile Global Fleet and Products
+      year: 2020 - 2022
+      location: Seattle, WA
       description:
+        - Senior Engineer/Manager responsible for energy systems requirements on pilot electric vehicles (EVs) and the Rivian Electric Delivery Vehicle (EDV).
+        - Worked with Rivian to design, simulate, and develop a next generation energy storage system (ESS) for the EDV, reducing cost while meeting Amazon energy requirements.
+        - Developed physics-based models for delivery route energy estimation, achieving a MAPE of 13% across 3 vehicle variants without machine learning techniques. Models used by internal partner teams to plan EV deployments 3 years out.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Manager, Fuels and Energy Conversion
+      institution: Amazon – Prime Air
+      year: 2019 - 2020
+      location: Seattle, WA
+      description:
+        - Hired and developed a team of 8 hardware and software engineers responsible for all on-vehicle energy storage and conversion systems, along with on-ground charging hardware.
+        - Led design, build, and validation activities for 3 generations of Prime Air vehicle ESS across multiple Li-ion cell formats (pouch, cylindrical). Achieved pack level energy density of 185 Wh/kg while meeting 4C continuous / 8C peak discharge rates with passive cooling.
+        - Scaled battery pack production to hundreds of units per year with a 3rd party contract manufacturer.
+        - Designed and delivered 65 bespoke charging systems for the ESS, capable of remote deployment to drone test ranges.
 
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Sr. Battery Systems Engineer
+      institution: Amazon – Prime Air
+      year: 2016 - 2019
+      location: Seattle, WA
+      description:
+        - First battery engineer hire on the team; led definition and requirements development for Prime Air's first bespoke battery system and initial in-house pack assembly.
+        - Defined and procured cell and pack test equipment for Li-ion battery testing (36 cell channels / 16 pack channels).
+        - Developed 2 RC pair electro-thermal battery models for use in Prime Air's MDAO aircraft design tool.
+        - Incubated business relationships with multiple Tier 1 battery cell OEMs for cell sourcing, evaluation, and LRIP.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Cell and Module Engineer, R&D
+      institution: AllCell Technologies
+      year: 2012 - 2015
+      location: Chicago, IL
+      description:
+        - Responsible for Li-ion cell and module electrical and thermal testing/characterization.
+        - Developed cell and module electrochemical models, including equivalent circuit and single particle physics approaches.
+        - Designed and executed thermal runaway tests across cell, module, and pack levels.
+        - Investigated the efficacy of multiple types of phase change composite materials on thermal runaway propagation.
+        - Developed long term cell aging models consuming customer usage profiles and predicting capacity loss and resistance growth over time and energy throughput.
+        - Lead engineer for a clad metal current collector development program; reduced current collector ohmic losses by 65% in stationary energy storage product.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Test Engineer, Global Battery Systems Lab
+      institution: General Motors
+      year: 2011 - 2012
+      location: Warren, MI
+      description:
+        - Responsible for Volt Gen 2 cell and pack test setup and execution activities.
 
-- title: Other Interests
+- title: Publications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - >-
+      M. Salameh, S. Wilke, <strong>B. Schweitzer</strong>, P. Sveum, S. Al-Hallaj,
+      <em>Thermal State of Charge Estimation in Phase Change Composites for Passively Cooled Lithium Ion Battery Packs</em>,
+      IEEE Transactions on Industry Applications, Volume 54, 2017, 426-436.
+    - >-
+      S. Wilke, <strong>B. Schweitzer</strong>, S. Khateeb, S. Al-Hallaj,
+      <em>Preventing thermal runaway propagation in lithium ion battery packs using a phase change composite material: An experimental study</em>,
+      Journal of Power Sources, Volume 340, 2017, 51-59.
+    - >-
+      F. A. LeBel, S. Wilke, <strong>B. Schweitzer</strong>, M. A Roux, S. Al-Hallaj, J.P.F Trovao,
+      <em>A Lithium-Ion Electro-Thermal Model of Parallelized Cells</em>,
+      IEEE 84th Vehicular Technology Conference, Sept 2016.
+    - >-
+      S. Wilke, <strong>B. Schweitzer</strong>, S. Al-Hallaj,
+      <em>Semi-Empirical Modeling of Capacity Fade: A Practical Approach for Battery Pack Manufacturers</em>,
+      ECS Transactions, Jun 20, 2016.
+    - >-
+      <strong>B. Schweitzer</strong>, S. Wilke, S. Khateeb, S. Al-Hallaj,
+      <em>Experimental validation of a 0-D numerical model for phase change thermal management systems in lithium-ion batteries</em>,
+      Journal of Power Sources, Volume 287, 2015, 211-219.
+    - >-
+      P. Taheri, A. Mansouri, <strong>B. Schweitzer</strong>, M. Yazdanpour, M. Bahrami,
+      <em>Electrical Constriction Resistance in Current Collectors of Large-Scale Lithium-Ion Batteries</em>,
+      Journal of the Electrochemistry Society, Vol. 160, 10, 2013, A1731-A1740.
+
+- title: Awarded Patents
+  type: list
+  contents:
+    - '<a href="https://patents.google.com/patent/US10418830B1">Charging Mat for Unmanned Aircraft – US 10,418,830 B1</a>'
+    - '<a href="https://patents.google.com/patent/US10193370B1">Mechanically Controlled Pre-Charge System – US 10,193,370 B1</a>'
+    - '<a href="https://patents.google.com/patent/US10393821">Power Supply Monitoring System Using Optical Estimation – US 10,393,821</a>'
+    - '<a href="https://patents.google.com/patent/US10809309">Power Supply Monitoring System Using Strain Gages – US 10,809,309</a>'
+    - '<a href="https://patents.google.com/patent/US11175346">Power Supply Monitoring Systems and Methods Using Ultrasonic Sensors – US 11,175,346</a>'
+    - '<a href="https://patents.google.com/patent/US11374415">Aerial Vehicle Fleet Maintenance Systems and Methods – US 11,374,415</a>'
