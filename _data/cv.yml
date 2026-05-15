@@ -21,9 +21,19 @@
 - title: Experience
   type: time_table
   contents:
+
+    - title: Staff Engineer/Team Lead, Energy Management
+      institution: Zoox
+      year: 2025 - Present
+      location: Foster City, CA
+      description:
+        - Vehicle energy management and optimization
+        - Fleet charging algorithm development
+        - Multi-disciplinary design and analysis for concept vehicle design and charging systems deployment
+       
     - title: Principal Engineer, Electrification
       institution: Amazon – Last Mile Global Fleet and Products
-      year: 2022 - Present
+      year: 2022 - 2025
       location: Seattle, WA
       description:
         - Principal Systems Engineer leading a research science group responsible for architectural decisions in the electrification of Amazon's Last Mile delivery network.

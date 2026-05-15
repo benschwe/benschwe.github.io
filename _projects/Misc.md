@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Miscellaneous stuff
-description: misc
-img: 
+title: Antique Energy Meters
+description: Restoration and re-purposing antique household energy meters
+img: assets/img/electric_meter/meter_cover_photo.jpg
 importance: 3
-category: Misc
+category: Antique Energy Meters
 related_publications: false
 toc:
   sidebar: left
 ---
+
+# Coming soon
